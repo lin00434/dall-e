@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; /*是字体，但是inter需要在index.html中创建*/
 }
 
 @media screen and (min-width: 480px) {

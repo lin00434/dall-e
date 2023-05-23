@@ -9,7 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <header className="w-full flex justify-between items-center bg-white sm:px-8 py-4 border-b boorder-b-[#e6ebf4]">
-        <Link to="/">
+        <Link to="/"> {/** link to home page */}
           <img src={logo} alt="logo"
           className="w-28 object-contain" />
         </Link>
